@@ -5,7 +5,5 @@ jobs:
       - image: circleci/node:6
     steps:
       - checkout
-      - restore-cache: *restore-cache
-      - run: *install
-      - save-cache: *save-cache
+      - run: npm install --save-dev jest
       - run: npm run test
