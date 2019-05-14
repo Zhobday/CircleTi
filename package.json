@@ -1,0 +1,17 @@
+{
+  "name": "circleti",
+  "version": "1.0.0",
+  "description": "CircleCI Technical Challenge",
+  "main": "index.js",
+  "dependencies": {
+    "jest": "^24.8.0"
+  },
+  "devDependencies": {
+    "jest-dom": "^3.2.2"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Zac Hobday",
+  "license": "ISC"
+}
