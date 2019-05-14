@@ -1,9 +1,8 @@
 version: 2.1
 jobs:
   build:
-    working_directory: ~/jest
     docker:
-      - image: circleci/node:8
-      - run:
-          name: Run Tests
-          command: npm test
+      - image: circleci/node:6
+    steps:
+      - checkout
+      - run: npm run test
