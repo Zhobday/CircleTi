@@ -10,7 +10,7 @@
     "jest-dom": "^3.2.2"
   },
   "scripts": {
-    "start": "node index.html",
+    "start": "npm start",
     "test": "jest"
   },
   "author": "Zac Hobday",
